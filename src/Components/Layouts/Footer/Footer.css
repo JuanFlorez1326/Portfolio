@@ -1,0 +1,14 @@
+.classFooter {
+    background-color:#005f73;
+    color: #001219;
+    padding-top:1%;
+    text-align:center;
+}
+.divSocialNetworks {
+    padding:10px;
+}
+.itemSocialNetwork {
+    padding:10px;
+    font-size:25px;
+    color:#001219;
+}

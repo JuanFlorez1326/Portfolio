@@ -1,0 +1,65 @@
+.classMain {
+    background-color:#005f73;
+    color:#94d2bd;
+    background: rgb(10,147,150);
+    background: linear-gradient(0deg, rgba(10,147,150,1) 80%, rgba(7,110,114,1) 90%, rgba(0,18,25,1) 100%);
+
+}
+.divInfoHome{
+    display:flex;
+}
+.divInfoH {
+    width:30%;
+    color:#001219;
+    padding:13% 10% 10% 10%;
+}
+.divInfoHome h1 {
+    font-size:40px;
+}
+.divInfoHome h2 {
+    font-size:30px;
+}
+.divInfoHome h3 {
+    font-size:25px;
+}
+.btnContactHome{
+    margin-top:5%;
+    padding:5px 15px 5px 15px;
+    border:none;
+    background-color:#001219;
+    color: #94d2bd;
+    border-radius:5px;
+    font-size:20px;
+}
+.btnContactHome:hover {
+    cursor: pointer;
+    background-color:#001f2b;
+}
+.divImageHome{
+    width:30%;
+    margin:auto;
+}
+.classImageHome{
+    width:100%;
+    border-radius:50%;
+    border: 3px solid white;
+}
+.divSkills {
+    width:80%;
+    text-align:center;
+    display:grid;
+    grid-template-columns:repeat(4,250px);
+    grid-template-rows:repeat(5,100px);
+}
+.classTitleSkills{
+    text-align:center;
+    margin-bottom:5%;
+    font-size:30px;
+}
+.divSkills{
+    margin:auto;
+}
+.divInfoSkills{
+    background-color: #001219;
+    padding-top:5%;
+}
