@@ -1,0 +1,27 @@
+.classTitleAboutMe{
+    text-align:center;
+    font-size:40px;
+    margin:2%;
+}
+.divInfoAboutMe {
+    display:flex;
+    width:90%;
+}
+.divInfoAboutMe{
+    margin:auto;
+}
+.divImageAboutMe{
+    width:45%;
+    margin-bottom:4%;
+    outline:1px solid black;
+    margin:2%;
+}
+.classImageAboutMe {
+    width:100%;
+    border-radius:10%;
+}
+.divInfoMe{
+    width: 45%;
+    outline:1px solid black;
+    margin:2%;
+}

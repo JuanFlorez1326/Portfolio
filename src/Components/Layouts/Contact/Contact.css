@@ -1,0 +1,9 @@
+.divContact {
+    display:flex;
+}
+.personalContact{
+    outline:1px solid black;
+}
+.divFormContact{
+    outline:1px solid black;
+}
