@@ -2,7 +2,7 @@ import './Home.css'
 import React from "react"
 import logoPage from '../../../Images/logo.png'
 import { SiCsharp, SiPython, SiJavascript, SiKotlin, SiJira, SiNodedotjs, SiMicrosoftoffice,
-SiFlask, SiReact, SiMongodb, SiGithub, SiHtml5, SiCss3, SiNpm, SiGitlab } from 'react-icons/si'
+SiFlask, SiReact, SiMongodb, SiGithub, SiHtml5, SiCss3, SiNpm, SiGitlab, SiLinux } from 'react-icons/si'
 
 import { DiDotnet, DiGit} from 'react-icons/di'
 import { GrMysql } from 'react-icons/gr'
@@ -102,6 +102,10 @@ export const Home = () => {
                     <div>
                         <p>Office</p>
                         <h1><SiMicrosoftoffice/></h1>
+                    </div>
+                    <div>
+                        <p>Linux</p>
+                        <h1><SiLinux/></h1>
                     </div>
                 </div>
             </div>

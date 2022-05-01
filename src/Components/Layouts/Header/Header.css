@@ -1,6 +1,5 @@
 .classHeader {
-    background-color:#001219;
-    color:#94d2bd;
+    background-color:#4B6E8F;
     padding:2%;
 }
 .divHeader {
@@ -12,11 +11,11 @@
 
 .classTitleHeader {
     cursor: pointer;
-    color: #94d2bd;
+    color: #fafaff;
     text-decoration: none;
 }
 .classTitleHeader:hover {
-    color: #9fa3ad;
+    color: #061835;
 }
 
 .classNav {
@@ -26,7 +25,7 @@
     margin-right:2%;
     padding:5px;
     font-size:20px;
-    color:#94d2bd;
+    color:#fafaff;
     border-radius:10px;
     text-decoration:none;
     background-image: linear-gradient(currentColor, currentColor);
