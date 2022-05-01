@@ -11,6 +11,7 @@
 
 .classTitleHeader {
     cursor: pointer;
+    font-size:30px;
     color: #fafaff;
     text-decoration: none;
 }

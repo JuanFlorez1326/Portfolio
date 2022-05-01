@@ -11,4 +11,8 @@
     padding:10px;
     font-size:25px;
     color:#fafaff;
+    margin:0% 1% 0% 0%;
+}
+.itemSocialNetwork:hover {
+    color:#001219;
 }
