@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css'
 import{
   BrowserRouter,
   Routes,
@@ -12,6 +11,8 @@ import { About } from './Components/Layouts/About/About'
 import { Contact } from './Components/Layouts/Contact/Contact'
 import { Portfolio } from './Components/Layouts/Portfolio/Portfolio'
 import { Footer } from './Components/Layouts/Footer/Footer'
+import { ViewCVPersonal } from './Components/UI/ViewCVPersonal/ViewCVPersonal.jsx'
+import { ViewCVSena } from './Components/UI/ViewCVSena/ViewCVSena'
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
       <Routes>
         <Route exact path='/' element = { <Home/> }/>
         <Route exact path='/about' element = { <About/> }/>
-        <Route exact path='contact' element = { <Contact/> }/>
-        <Route exact path='portfolio' element = { <Portfolio/> }/>
+        <Route exact path='/contact' element = { <Contact/> }/>
+        <Route exact path='/portfolio' element = { <Portfolio/> }/>
+        <Route exact path='/cv1' element = { <ViewCVPersonal/> }/>
+        <Route exact path='/cv2' element = { <ViewCVSena/> }/>
       </Routes>
       <Footer/>
     </BrowserRouter>

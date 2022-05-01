@@ -25,88 +25,90 @@ export const Home = () => {
             </div>
             <div className='divInfoSkills'>
                 <h2 className='classTitleSkills'>Tools And Skills</h2>
-                <div className='divSkills'>
-                    <div>
-                        <p>C#</p>
-                        <h1><SiCsharp/></h1>
-                    </div>
-                    <div>
-                        <p>Python</p>
-                        <h1><SiPython/></h1>
-                    </div>
-                    <div>
-                        <p>JavaScript</p>
-                        <h1><SiJavascript/></h1>
-                    </div>
-                    <div>
-                        <p>Kotlin</p>
-                        <h1><SiKotlin/></h1>
-                    </div>
-
-                    <div>
-                        <p>.Net</p>
-                        <h1><DiDotnet/></h1>
-                    </div>
-                    <div>
-                        <p>Flask</p>
-                        <h1><SiFlask/></h1>
-                    </div>
-                    <div>
-                        <p>React</p>
-                        <h1><SiReact/></h1>
-                    </div>
-                    <div>
-                        <p>MySQL</p>
-                        <h1><GrMysql/></h1>
-                    </div>
-                    <div>
-                        <p>MongoDB</p>
-                        <h1><SiMongodb/></h1>
-                    </div>
-                    <div>
-                        <p>Git</p>
-                        <h1><DiGit/></h1>
-                    </div>
-                    <div>
-                        <p>GitHub</p>
-                        <h1><SiGithub/></h1>
-                    </div>
-                    <div>
-                        <p>GitLab</p>
-                        <h1><SiGitlab/></h1>
-                    </div>
-                    <div>
-                        <p>Jira Software</p>
-                        <h1><SiJira/></h1>
-                    </div>
-                    <div>
-                        <p>HTML5</p>
-                        <h1><SiHtml5/></h1>
-                    </div>
-                    <div>
-                        <p>CSS3</p>
-                        <h1><SiCss3/></h1>
-                    </div>
-                    <div>
-                        <p>Node.js</p>
-                        <h1><SiNodedotjs/></h1>
-                    </div>
-                    <div>
-                        <p>NPM</p>
-                        <h1><SiNpm/></h1>
-                    </div>
-                    <div>
-                        <p>Terminal</p>
-                        <h1><BsFillTerminalFill/></h1>
-                    </div>
-                    <div>
-                        <p>Office</p>
-                        <h1><SiMicrosoftoffice/></h1>
-                    </div>
-                    <div>
-                        <p>Linux</p>
-                        <h1><SiLinux/></h1>
-                    </div>
+                <h3 className='classSubtitleSkills'>Basic Level In:</h3>
+                <div className='divSkillsItems'>
+                   <div className='divSkills'>
+                        <div>
+                            <p className='itemTitleSkill'>C#</p>
+                            <p className='itemIconSkill'><SiCsharp/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>Python</p>
+                            <p className='itemIconSkill'><SiPython/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>JavaScript</p>
+                            <p className='itemIconSkill'><SiJavascript/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>Kotlin</p>
+                            <p className='itemIconSkill'><SiKotlin/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>.Net</p>
+                            <p className='itemIconSkill'><DiDotnet/></p>
+                        </div>
+                        <div>
+                            <p>Flask</p>
+                            <p className='itemIconSkill'><SiFlask/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>React</p>
+                            <p className='itemIconSkill'><SiReact/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>MySQL</p>
+                            <p className='itemIconSkill'><GrMysql/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>MongoDB</p>
+                            <p className='itemIconSkill'><SiMongodb/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>Git</p>
+                            <p className='itemIconSkill'><DiGit/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>GitHub</p>
+                            <p className='itemIconSkill'><SiGithub/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>GitLab</p>
+                            <p className='itemIconSkill'><SiGitlab/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>Jira Software</p>
+                            <p className='itemIconSkill'><SiJira/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>HTML5</p>
+                            <p className='itemIconSkill'><SiHtml5/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>CSS3</p>
+                            <p className='itemIconSkill'><SiCss3/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>Node.js</p>
+                            <p className='itemIconSkill'><SiNodedotjs/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>NPM</p>
+                            <p className='itemIconSkill'><SiNpm/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>Terminal</p>
+                            <p className='itemIconSkill'><BsFillTerminalFill/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>Office</p>
+                            <p className='itemIconSkill'><SiMicrosoftoffice/></p>
+                        </div>
+                        <div>
+                            <p className='itemTitleSkill'>Linux</p>
+                            <p className='itemIconSkill'><SiLinux/></p>
+                        </div>
+                   </div>
                 </div>
             </div>
         </main>

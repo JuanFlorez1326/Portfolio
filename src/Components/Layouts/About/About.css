@@ -1,3 +1,6 @@
+.classMainAboutMe {
+    margin-bottom:2%;
+}
 .classTitleAboutMe{
     text-align:center;
     font-size:40px;
@@ -11,9 +14,8 @@
     margin:auto;
 }
 .divImageAboutMe{
-    width:45%;
+    width:50%;
     margin-bottom:4%;
-    outline:1px solid black;
     margin:2%;
 }
 .classImageAboutMe {
@@ -21,7 +23,26 @@
     border-radius:10%;
 }
 .divInfoMe{
-    width: 45%;
-    outline:1px solid black;
+    width: 40%;
     margin:2%;
+    font-size:25px;
+    padding:7% 2% 2% 5%;
+}
+.btnCVAbout{
+    margin-top:5%;
+    padding:10px 5px 10px 5px;
+    border:none;
+    width:30%;
+    background-color:#001219;
+    color: #fafaff;
+    border-radius:5px;
+    font-size:15px;
+    cursor: pointer;
+}
+.btnCVAbout:hover {
+    background-color:#4B6E8F;
+    color: #001219;
+}
+.btnCV1About {
+    margin:0% 5% 0% 0%;
 }
