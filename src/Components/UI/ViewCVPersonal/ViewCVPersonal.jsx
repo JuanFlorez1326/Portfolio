@@ -10,7 +10,6 @@ export const ViewCVPersonal = () => {
             window.close();
         }
     }
-    ViewPhoneCV1()
 
     return (
         <div className='divViewCVPersonal'>

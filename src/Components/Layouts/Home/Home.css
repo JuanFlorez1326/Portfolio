@@ -41,19 +41,25 @@
     border-radius:50%;
     border: 3px solid white;
 }
-.divSkillsItems {
-    width:60%;
-    margin:auto;
-}
 .divSkills {
-    width:100%;
+    width:60%;
     text-align:center;
     display:grid;
-    grid-template-columns:repeat(5,150px);
+    grid-template-columns:repeat(5,20%);
     grid-template-rows:repeat(4,100px);
 }
 .divSkills{
-    padding-bottom:4%;
+    margin:auto;
+    text-align:center;
+    margin-bottom:4%;
+    padding:2%;
+    border:2px solid #000814;
+    border-radius:20px;
+    background-color:#4B6E8F;
+}
+.divSkillsItems {
+    width:90%;
+    margin:auto;
 }
 .classTitleSkills{
     text-align:center;
@@ -61,7 +67,7 @@
     padding-bottom:1%;
 }
 .classSubtitleSkills{
-    padding-bottom:5%;
+    padding-bottom:3%;
     font-size:25px;
 }
 .divInfoSkills{
