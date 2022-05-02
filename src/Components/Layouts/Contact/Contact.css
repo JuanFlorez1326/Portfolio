@@ -4,6 +4,7 @@
 .classTitleContact {
     text-align:center;
     padding:2% 0% 2% 0%;
+    font-size:40px;
 }
 .divContact {
     display:flex;
@@ -43,9 +44,11 @@
     width:45%;
     padding:5px 0px 5px 5px;
     border:2px solid #001219;
+    background-color:#eef0f2;
 }
 .classFormContact textarea {
     width:45%;
+    background-color:#eef0f2;
     border:none;
     outline:none;
     padding:5px 0px 0px 5px;
@@ -86,7 +89,7 @@
     cursor: pointer;
 }
 .btnSendFormContact:hover {
-    background-color:#4B6E8F;
+    background-color:#eef0f2;
     color: #001219;
 }
 .classPhoneContact {

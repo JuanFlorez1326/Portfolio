@@ -6,7 +6,7 @@
 }
 .divInfoH {
     width:20%;
-    color:#000814;
+    color:#001219;
     padding:13% 10% 10% 10%;
 }
 .divInfoHome h1 {
@@ -39,7 +39,6 @@
 .classImageHome{
     width:100%;
     border-radius:50%;
-    border: 3px solid white;
 }
 .divSkills {
     width:60%;
@@ -53,7 +52,7 @@
     text-align:center;
     margin-bottom:4%;
     padding:2%;
-    border:2px solid #000814;
+    border:2px solid #001219;
     border-radius:20px;
     background-color:#4B6E8F;
 }

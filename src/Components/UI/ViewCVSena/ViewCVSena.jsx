@@ -10,6 +10,7 @@ export const ViewCVSena = () => {
             window.close();
         }
     }
+    ViewPhoneCV2()
 
     return (
         <div className='divViewCVSena'>
