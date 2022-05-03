@@ -49,7 +49,7 @@ export const Home = () => {
                             <p className='itemIconSkill'><DiDotnet/></p>
                         </div>
                         <div>
-                            <p>Flask</p>
+                            <p className='itemTitleSkill'>Flask</p>
                             <p className='itemIconSkill'><SiFlask/></p>
                         </div>
                         <div>
@@ -77,7 +77,7 @@ export const Home = () => {
                             <p className='itemIconSkill'><SiGitlab/></p>
                         </div>
                         <div>
-                            <p className='itemTitleSkill'>Jira Software</p>
+                            <p className='itemTitleSkill'>Jira</p>
                             <p className='itemIconSkill'><SiJira/></p>
                         </div>
                         <div>
