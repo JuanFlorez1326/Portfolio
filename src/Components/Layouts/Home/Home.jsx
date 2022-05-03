@@ -18,6 +18,7 @@ export const Home = () => {
                     <h2>I'm Juan Florez</h2>
                     <h3>Junior Software Developer</h3>
                     <NavLink to='/contact'><button className='btnContactHome'>Contact</button></NavLink>
+                    <a href='https://github.com/JuanFlorez1326' target='_blank' rel='noopener noreferrer'><button className='btnContactHome'>GitHub</button></a>
                 </div>
                 <div className='divImageHome'>
                     <img className='classImageHome' src={logoPage} alt='Home' />
