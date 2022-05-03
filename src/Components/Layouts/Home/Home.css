@@ -81,3 +81,85 @@
 .itemIconSkill{
     font-size:40px;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 768px){
+    .divInfoH{
+        padding:15% 10% 10% 10%;
+        width:40%;
+    }
+    .divInfoSkills{
+        margin-bottom:10%;
+    }
+    .divSkills {
+        width:90%;
+        text-align:center;
+        display:grid;
+        grid-template-columns:repeat(3,33%);
+        grid-template-rows:repeat(7,100px);
+    }
+    .divImageHome{
+        width:50%;
+        margin:auto;
+    }
+    .classImageHome{
+        width:70%;
+        border-radius:50%;
+    }
+    .itemIconSkill{
+        font-size:50px;
+    }
+    .btnContactHome{
+        width:40%;
+        margin-top:5%;
+        padding:5px 15px 5px 15px;
+        border:none;
+        background-color:#001219;
+        color: #fafaff;
+        border-radius:5px;
+        font-size:20px;
+    }
+    .btnContactHome:hover {
+        cursor: pointer;
+        background-color:#4B6E8F;
+        color: #001219;
+    }
+}
+@media screen and (max-width: 767px){
+    .divInfoHome{
+        display:block;
+    }
+    .divInfoH{
+        width:90%;
+    }
+    .divInfoSkills{
+        margin-bottom:10%;
+    }
+    .divImageHome{
+        display:none;
+    }
+    .divSkills {
+        width:90%;
+        text-align:center;
+        display:grid;
+        grid-template-columns:repeat(3,33%);
+        grid-template-rows:repeat(7,100px);
+    }
+    .itemIconSkill{
+        font-size:50px;
+    }
+    .btnContactHome{
+        width:40%;
+        margin-top:5%;
+        padding:5px 15px 5px 15px;
+        border:none;
+        background-color:#001219;
+        color: #fafaff;
+        border-radius:5px;
+        font-size:20px;
+    }
+    .btnContactHome:hover {
+        cursor: pointer;
+        background-color:#4B6E8F;
+        color: #001219;
+    }
+}
