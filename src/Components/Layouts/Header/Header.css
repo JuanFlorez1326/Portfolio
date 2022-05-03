@@ -6,7 +6,7 @@
     display:flex;
 }
 .divTitleHeader {
-    margin-right:60%;
+    margin-right:55%;
 }
 
 .classTitleHeader {
@@ -37,4 +37,26 @@
 }
 .classNav a:hover, .classNav a:focus {
     background-size: 100% 3px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px){
+    .divTitleHeader {
+        margin-right:35%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .divHeader{
+        display: block;
+        padding-bottom:3%;
+    }
+    .divTitleHeader{
+        margin:auto;
+    }
+    .classTitleHeader{
+        text-align:center;
+    }
+    .classNav {
+        text-align:center;
+    }
 }
