@@ -46,3 +46,66 @@
 .btnCV1About {
     margin:0% 5% 0% 0%;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 768px){
+    .divInfoAboutMe{
+        display:block;
+    }
+    .divInfoMe{
+        text-align:center;
+        width:90%;
+        font-size:20px;
+        margin:auto;
+    }
+    .btnCVAbout{
+        margin-top:5%;
+        margin-bottom:5%;
+        padding:10px 5px 10px 5px;
+        border:none;
+        width:25%;
+        background-color:#001219;
+        color: #fafaff;
+        border-radius:5px;
+        font-size:15px;
+        cursor: pointer;
+    }
+    .btnCVAbout:hover {
+        background-color:#4B6E8F;
+        color: #001219;
+    }
+    .divImageAboutMe{
+        width:70%;
+        margin:auto;
+    }
+}
+@media screen and (max-width: 767px){
+    .divInfoAboutMe{
+        display:block;
+    }
+    .divInfoMe{
+        text-align:center;
+        width:90%;
+        font-size:17px;
+        margin:auto;
+    }
+    .btnCVAbout{
+        margin-top:5%;
+        margin-bottom:5%;
+        padding:10px 5px 10px 5px;
+        border:none;
+        width:45%;
+        background-color:#001219;
+        color: #fafaff;
+        border-radius:5px;
+        font-size:15px;
+        cursor: pointer;
+    }
+    .btnCVAbout:hover {
+        background-color:#4B6E8F;
+        color: #001219;
+    }
+    .divImageAboutMe{
+        width:90%;
+        margin:auto;
+    }
+}

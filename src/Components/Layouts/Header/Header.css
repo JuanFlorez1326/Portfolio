@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 1000px) and (min-width: 768px){
     .divTitleHeader {
-        margin-right:35%;
+        margin-right:30%;
     }
 }
 
@@ -49,6 +49,9 @@
     .divHeader{
         display: block;
         padding-bottom:3%;
+    }
+    .classNav a {
+        padding-right:0%;
     }
     .divTitleHeader{
         margin:auto;
