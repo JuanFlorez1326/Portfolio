@@ -10,7 +10,6 @@
     display:flex;
     width:80%;
     margin:auto;
-
     border-radius:20px;
 }
 .personalContact{
@@ -95,4 +94,74 @@
 .classPhoneContact {
     margin-bottom:5%;
     margin-top:2%;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px){
+    .divContact{
+        width:90%;
+    }
+    .personalContact{
+        width:90%;
+    }
+    .divForm{
+        width:90%;
+    }
+
+    .classFormContact input{
+        width:60%;
+        padding:5px 0px 5px 5px;
+    }
+    .classFormContact textarea {
+        width:60%;
+        padding:5px 0px 0px 5px;
+    }
+    .fistInput {
+        margin-bottom:4%;
+    }
+    .classFormContact p {
+        margin-left:20%;
+    }
+    .btnSendFormContact{
+        margin:4% 0% 4% 0%;
+        padding:7px 5px 7px 5px;
+        width:40%;
+        font-size:20px;
+    }
+}
+@media screen and (max-width: 767px){
+    .divContact{
+        display:block;
+        width:90%;
+    }
+    .divImageContactMe{
+        width:50%;
+    }
+    .personalContact{
+        width:95%;
+        margin:auto;
+        padding-bottom:5%;
+    }
+    .divForm{
+        width:100%;
+    }
+    .classFormContact input{
+        width:60%;
+        padding:5px 0px 5px 5px;
+    }
+    .classFormContact textarea {
+        width:60%;
+        padding:5px 0px 0px 5px;
+    }
+    .fistInput {
+        margin-bottom:4%;
+    }
+    .classFormContact p {
+        margin-left:20%;
+    }
+    .btnSendFormContact{
+        margin:4% 0% 4% 0%;
+        padding:7px 5px 7px 5px;
+        width:40%;
+        font-size:20px;
+    }
 }
