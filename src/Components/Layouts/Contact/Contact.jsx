@@ -11,7 +11,6 @@ export const Contact = () => {
 
         emailjs.sendForm('service_h5mkknq','template_cxu0vbs',e.target,'P6kspBKbsOAr4yOuz')
         .then(response => {
-            console.log(response)
             Swal.fire({
                 position: 'top-end',
                 icon: 'success',
@@ -21,7 +20,6 @@ export const Contact = () => {
               })
             })
         .catch(error => { 
-            console.log(error)
             Swal.fire({
                 position: 'top-end',
                 icon: 'error',
